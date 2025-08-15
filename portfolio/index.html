@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial | Portfolio</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/yBSr81DJ/logo-portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="cabecalho conteudo__bloco">
+        <nav class="modelo__horizontal modelo__centralizado modelo__quebra">
+            <a href="index.html" class="conteudo__link">Home</a>
+            <a href="pages/sobre-mim.html" class="conteudo__link">Sobre mim</a>
+            <a href="pages/curriculo.html" class="conteudo__link">Currículo</a>
+        </nav>
+    </header>
+
+    <main class="conteudo modelo__horizontal">
+        <section class="conteudo__secao modelo__vertical">
+            <h1 class="conteudo__titulo">Desenvolvedor Web Mateus Maciel</h1>
+
+            <p class="conteudo__texto">Olá, meu nome é Mateus Maciel e sou apaixonado por programação, tecnologia, engenharia e ciência. Atualmente, possuo conhecimentos em <span class="conteudo__destaque">HTML5, CSS3 e JavaScript</span>. Busco constantemente aprimorar minhas habilidades por meio de muita prática e, no futuro, aprofundar meu entendimento sobre o funcionamento completo de uma aplicação, explorando tecnologias específicas e avançadas.</p>
+            
+            <p class="conteudo__texto">Espero que esta página seja apenas o início de muitos projetos que irei desenvolver. Em um mundo onde a inteligência artificial está ganhando cada vez mais força, meu objetivo é adquirir experiência e conhecimento suficientes para me tornar um grande profissional.</p>
+
+            <div class="modelo__vertical modelo__centralizado">
+                <h2 class="conteudo__subtitulo">Acesse minhas redes:</h2>
+
+                <ul class="modelo__vertical conteudo__menu modelo__centralizado" id="elemento-rede-social"></ul>
+            </div>
+        </section>
+
+        <section class="conteudo__secao modelo__vertical modelo__centralizado">
+            <img src="https://i.ibb.co/WN8r3cH3/imagem-perfil.png" alt="Imagem representando o rosto do desenvolvedor frontend" class="conteudo__imagem"/>
+        </section>
+    </main>
+
+    <footer class="rodape modelo__vertical modelo__centralizado conteudo__bloco">
+        <p class="conteudo__texto">© 2025 - Desenvolvido por Mateus Maciel (@mateusmaciel460).</p>
+    </footer>
+
+    <script src="js/view/exibirRedeSocial.js" type="module"></script>
+</body>
+</html>
