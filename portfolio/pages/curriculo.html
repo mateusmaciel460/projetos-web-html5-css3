@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo | Portfolio</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/Z6xHL1hb/imagem-ponto-interrogacao.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header class="cabecalho conteudo__bloco">
+        <nav class="modelo__horizontal modelo__centralizado">
+            <a href="../index.html" class="conteudo__link">Home</a>
+            <a href="sobre-mim.html" class="conteudo__link">Sobre mim</a>
+            <a href="curriculo.html" class="conteudo__link">Currículo</a>
+        </nav>
+    </header>
+
+    <main class="conteudo modelo__horizontal">
+        <section class="conteudo__secao modelo__vertical">
+            <h1 class="conteudo__titulo">Currículo</h1>
+            <p class="conteudo__texto">Técnico em Informática, formado em 2017 pela Escola Estadual de Educação Profissional <span class="conteudo__destaque">José Maria Falcão</span>, com formação abrangendo hardware e software — desde arquitetura e manutenção de computadores até o desenvolvimento de páginas web utilizando <span class="conteudo__destaque">PHP e MySQL</span>.</p>
+
+            <div class="modelo__vertical">
+                <h2 class="conteudo__subtitulo">Experiências</h2>
+
+                <ul>
+                    <li class="conteudo__texto">
+                        Autônomo, Técnico em Informática - 
+                        <span class="conteudo__destaque">02/2020</span> até 
+                        <span class="conteudo__destaque">08/2025</span>.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="modelo__vertical">
+                <h2 class="conteudo__subtitulo">Certificações</h2>
+
+                <ul class="modelo__vertical" id="elemento-certificacao"></ul>
+            </div>
+        </section>
+
+        <section class="conteudo__secao modelo__vertical modelo__centralizado">
+            <img src="https://i.ibb.co/WN8r3cH3/imagem-perfil.png" alt="Imagem representando o rosto do desenvolvedor frontend" class="conteudo__imagem"/>
+        </section>
+    </main>
+
+    <footer class="rodape conteudo__bloco modelo__vertical modelo__centralizado">
+        <p class="conteudo__texto">© 2025 - Desenvolvido por Mateus Maciel (@mateusmaciel460).</p>
+    </footer>
+
+    <script src="../js/view/exibirCertificacao.js" type="module"></script>
+</body>
+</html>
