@@ -6,6 +6,12 @@ const listaProjetos = [
         titulo: 'Projeto Portfolio', 
         tag: 'portfolio', 
         linkImagem: 'yBSr81DJ/logo-portfolio.png' 
+    },
+    {
+        id: 2,
+        titulo: 'Suporte Técnico',
+        tag: 'suporte-tecnico',
+        linkImagem: 'BV9vy0Mb/logo-suporte-tecnico.png'
     }
 ];
 
