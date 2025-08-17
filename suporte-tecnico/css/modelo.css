@@ -1,0 +1,20 @@
+.modelo__inicial {
+    align-items: start;
+    text-align: left;
+}
+
+.modelo__quebra {
+    flex-wrap: wrap;
+}
+
+.modelo__cor-cinza {
+    color: #C0C0C0;
+}
+
+.modelo__fundo-azul {
+    background: #167BF7;
+}
+
+.modelo__fundo-transparente {
+    background: transparent;
+}

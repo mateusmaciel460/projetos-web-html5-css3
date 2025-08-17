@@ -1,0 +1,49 @@
+.conteudo__topo .conteudo__imagem {
+    width: auto;
+}
+
+.conteudo__fundo {
+    background-image: url('https://i.ibb.co/MxZ47G6F/fundo-topo.png');
+}
+
+.conteudo__caixa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conteudo__topo {
+    gap: 1.5rem;
+    width: 85%;
+    padding: 2rem;
+}
+
+.conteudo__topo .conteudo__botao {
+    font-size: 16px;
+    padding: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 1302px) {
+    .conteudo__fundo {
+        background: none;
+    }
+
+    .conteudo__caixa {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .conteudo__topo {
+        width: 100%;
+        padding: 2rem 5rem;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .conteudo__topo {
+        padding: 1rem;
+    }
+
+    .conteudo__topo .conteudo__imagem {
+        width: 100%;
+    }
+}

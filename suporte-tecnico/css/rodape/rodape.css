@@ -1,0 +1,11 @@
+.rodape {
+    padding: 3rem;
+}
+
+.rodape .conteudo__subtitulo {
+    border-bottom: 0.2rem solid #ffffff;
+}
+
+.rodape__item {
+    font-size: 16px;
+}

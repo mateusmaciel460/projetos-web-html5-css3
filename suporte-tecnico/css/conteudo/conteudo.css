@@ -1,0 +1,59 @@
+@import url('dispositivos.css');
+
+.conteudo {
+    padding: 2rem;
+}
+
+.conteudo__secao {
+    padding: 4rem 1rem;
+    gap: 3rem;
+    height: 100vh;
+}
+
+.conteudo__secao .conteudo__imagem {
+    border: 0.3rem solid #167BF7;
+    border-radius: 0.5rem;
+}
+
+.conteudo__subtitulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.conteudo__texto {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.conteudo__texto-pequeno {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.conteudo__botao {
+    border: 0.2rem solid #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+}
+
+.conteudo__apresentacao {
+    gap: 2rem;
+}
+
+.conteudo__imagem {
+    width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+    .conteudo__secao {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .conteudo__secao {
+        height: auto;
+        border-bottom: 0.4rem solid #2e2e2e;
+    }
+}

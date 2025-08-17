@@ -1,0 +1,27 @@
+.dispositivos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.dispositivos .dispositivo {
+    border: 0.3rem solid #2e2e2e;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.dispositivo .conteudo__imagem {
+    border: none !important;
+    width: auto;
+}
+
+@media screen and (max-width: 967px) {
+    .dispositivos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .dispositivos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
